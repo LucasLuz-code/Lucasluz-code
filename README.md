@@ -1,4 +1,4 @@
-<h1 align="center">Olá, eu sou o SEU NOME 👋</h1>
+<h1 align="center">Olá, eu sou o Lucas Luz 👋</h1>
 
 <p align="center">
   <strong>Desenvolvedor Full Stack</strong> · Criando soluções web modernas, performáticas e bem estruturadas
@@ -11,7 +11,7 @@
   <a href="https://www.linkedin.com/in/SEU_LINKEDIN/">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:SEU_EMAIL@exemplo.com">
+  <a href="mailto:euprogramador484@gmail.com">
     <img alt="E-mail" src="https://img.shields.io/badge/E--mail-333333?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
@@ -21,8 +21,8 @@
 ### 🙋‍♂️ Sobre mim
 
 - 💼 Desenvolvedor focado em **front-end e back-end**, com atenção a código limpo e boas práticas
-- 🎓 Formação: **SEU CURSO** — SUA INSTITUIÇÃO
-- 🌱 Atualmente estudando: **TECNOLOGIA QUE ESTÁ APRENDENDO**
+- 🎓 Formação: Desenvolvimentos de sistemas — Etec - Elias Nechar
+- 🌱 Atualmente estudando: React + Django
 - 📱 Compartilho conteúdo sobre programação no Instagram **[@luz.programador](https://www.instagram.com/luz.programador/)**
 - 🤝 Aberto a oportunidades, freelas e colaborações
 
