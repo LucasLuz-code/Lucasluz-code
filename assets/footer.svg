@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="Código bom é aquele que resolve o problema e que outra pessoa consegue entender.">
+<title>Código bom é aquele que resolve o problema e que outra pessoa consegue entender.</title>
+<style>
+text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+.mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, Menlo, Monaco, 'Courier New', monospace; }
+@keyframes fade { from { opacity: 0; } }
+@keyframes up { from { opacity: 0; transform: translateY(16px); } }
+@keyframes slide { from { opacity: 0; transform: translateX(-10px); } }
+@keyframes float { from { transform: translateY(-3px); } to { transform: translateY(3px); } }
+@keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+@keyframes ping { from { transform: scale(1); opacity: .7; } to { transform: scale(3.2); opacity: 0; } }
+@keyframes blink { 50% { opacity: 0; } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.4s cubic-bezier(0, 0, .2, 1) infinite; }
+
+.quote { font-size: 19px; font-style: italic; fill: #94a3b8; animation: up 1.2s cubic-bezier(.2, .7, .2, 1) .2s both; }
+.sig { font-size: 12.5px; font-weight: 600; letter-spacing: 4px; fill: #8b5cf6; animation: up 1.2s cubic-bezier(.2, .7, .2, 1) .5s both; }
+.w1 { animation: flow 24s linear infinite; }
+.w2 { animation: flow 16s linear infinite; }
+.w3 { animation: flow 11s linear infinite; }
+@keyframes flow { to { transform: translateX(-1000px); } }
+.mote { fill: #c4b5fd; animation: rise 8s ease-out infinite; }
+@keyframes rise { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: .8; } 100% { transform: translateY(-120px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<defs>
+<linearGradient id="wg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0" spreadMethod="repeat">
+  <stop offset="0" stop-color="#8b5cf6"/><stop offset=".35" stop-color="#3b82f6"/>
+  <stop offset=".65" stop-color="#06b6d4"/><stop offset="1" stop-color="#8b5cf6"/>
+</linearGradient>
+</defs>
+
+<text class="quote" x="500" y="56" text-anchor="middle">“Código bom é aquele que resolve o problema e que outra pessoa consegue entender.”</text>
+<text class="sig" x="500" y="90" text-anchor="middle">— LUCAS LUZ</text>
+<circle class="mote" cx="254" cy="192" r="1.3" style="animation-duration:10.6s;animation-delay:-5.2s"/><circle class="mote" cx="576" cy="194" r="1.3" style="animation-duration:7.3s;animation-delay:-2.6s"/><circle class="mote" cx="966" cy="189" r="1.7" style="animation-duration:8.4s;animation-delay:-7.0s"/><circle class="mote" cx="172" cy="195" r="1.7" style="animation-duration:7.9s;animation-delay:-0.2s"/><circle class="mote" cx="761" cy="176" r="1.7" style="animation-duration:6.2s;animation-delay:-8.6s"/><circle class="mote" cx="804" cy="181" r="1.7" style="animation-duration:9.6s;animation-delay:-9.7s"/><circle class="mote" cx="701" cy="207" r="1.3" style="animation-duration:9.6s;animation-delay:-6.3s"/><circle class="mote" cx="936" cy="175" r="1.3" style="animation-duration:6.5s;animation-delay:-1.5s"/><circle class="mote" cx="234" cy="209" r="1.3" style="animation-duration:9.9s;animation-delay:-9.4s"/><circle class="mote" cx="426" cy="203" r="1.7" style="animation-duration:7.8s;animation-delay:-6.4s"/><circle class="mote" cx="579" cy="206" r="1.7" style="animation-duration:10.6s;animation-delay:-0.3s"/><circle class="mote" cx="293" cy="194" r="1.7" style="animation-duration:6.8s;animation-delay:-9.5s"/><circle class="mote" cx="937" cy="206" r="1.7" style="animation-duration:6.5s;animation-delay:-7.2s"/><circle class="mote" cx="625" cy="210" r="1.3" style="animation-duration:7.4s;animation-delay:-0.7s"/><circle class="mote" cx="833" cy="210" r="1" style="animation-duration:7.7s;animation-delay:-0.7s"/><circle class="mote" cx="873" cy="171" r="1.3" style="animation-duration:9.8s;animation-delay:-9.6s"/><circle class="mote" cx="72" cy="195" r="1" style="animation-duration:7.9s;animation-delay:-6.5s"/><circle class="mote" cx="548" cy="207" r="1.3" style="animation-duration:8.5s;animation-delay:-11.0s"/>
+<path class="w1" d="M0 162 Q 125.0 148 250.0 162 T 500 162 T 750 162 T 1000 162 T 1250 162 T 1500 162 T 1750 162 T 2000 162 V 250 H 0 Z" fill="url(#wg)" opacity=".25"/>
+<path class="w2" d="M0 184 Q 125.0 172 250.0 184 T 500 184 T 750 184 T 1000 184 T 1250 184 T 1500 184 T 1750 184 T 2000 184 V 250 H 0 Z" fill="url(#wg)" opacity=".45"/>
+<path class="w3" d="M0 208 Q 125.0 198 250.0 208 T 500 208 T 750 208 T 1000 208 T 1250 208 T 1500 208 T 1750 208 T 2000 208 V 250 H 0 Z" fill="url(#wg)" opacity=".95"/>
+
+</svg>

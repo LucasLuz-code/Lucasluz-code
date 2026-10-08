@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="92" viewBox="0 0 1000 92" role="img" aria-label="Estatísticas no GitHub">
+<title>Estatísticas no GitHub</title>
+<style>
+text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+.mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, Menlo, Monaco, 'Courier New', monospace; }
+@keyframes fade { from { opacity: 0; } }
+@keyframes up { from { opacity: 0; transform: translateY(16px); } }
+@keyframes slide { from { opacity: 0; transform: translateX(-10px); } }
+@keyframes float { from { transform: translateY(-3px); } to { transform: translateY(3px); } }
+@keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+@keyframes ping { from { transform: scale(1); opacity: .7; } to { transform: scale(3.2); opacity: 0; } }
+@keyframes blink { 50% { opacity: 0; } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.4s cubic-bezier(0, 0, .2, 1) infinite; }
+
+.eb { font-size: 12.5px; font-weight: 600; letter-spacing: 3px; animation: slide .9s cubic-bezier(.2, .7, .2, 1) both; }
+.tt { font-size: 32px; font-weight: 700; letter-spacing: -.3px; animation: slide 1s cubic-bezier(.2, .7, .2, 1) .12s both; }
+.line { transform-box: fill-box; transform-origin: left center; animation: grow 1.8s cubic-bezier(.2, .7, .2, 1) .25s both; }
+@keyframes grow { from { transform: scaleX(0); } }
+.dot { animation: travel 7s ease-in-out 2s infinite both; }
+@keyframes travel { 0% { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 70% { opacity: .9; } 100% { transform: translateX(760px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<defs>
+<linearGradient id="tg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="560" y2="0" spreadMethod="repeat">
+  <stop offset="0" stop-color="#8b5cf6"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/>
+  <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="560 0" dur="10s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0">
+  <stop offset="0" stop-color="#8b5cf6"/><stop offset=".45" stop-color="#3b82f6" stop-opacity=".5"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="dg"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.9"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+</defs>
+
+<text class="mono eb" x="2" y="24"><tspan fill="#8b5cf6">04</tspan><tspan dx="12" fill="#64748b">/  MÉTRICAS</tspan></text>
+<text class="tt" x="0" y="64" fill="url(#tg)">Estatísticas no GitHub</text>
+<rect class="line" x="0" y="80" width="1000" height="2" rx="1" fill="url(#lg)"/>
+<g class="dot"><circle cx="4" cy="81" r="14" fill="url(#dg)"/><circle cx="4" cy="81" r="2.6" fill="#f5f3ff"/></g>
+
+</svg>
